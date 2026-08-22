@@ -17,7 +17,9 @@ jobs:
         uses: digitalocean/action-doctl@v2
         with:
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
-
+      - name: Install Serverless Plugin
+        run: |
+          doctl serverless install
       - name: Deploy to Namespace lionfish-fn-namespace
         run: |
           doctl serverless connect lionfish-fn-namespace
