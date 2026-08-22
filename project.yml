@@ -1,0 +1,8 @@
+packages:
+  - name: default
+    functions:
+      - name: manufacturing-api
+        binary: false
+        main: ''
+        runtime: php:default
+        web: true
