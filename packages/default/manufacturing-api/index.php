@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 // ==============================================================
-// 1. FUNGSI HELPER NORMALIZE INPUT
+// 1. FUNGSI HELPER NORMALIZE INPUT TESTING
 // ==============================================================
 function normalizeInput(array $event): array
 {
