@@ -1454,7 +1454,7 @@ function main(array $args): array
                     return sendResponse(500, ['success' => false, 'message' => 'Gagal menyimpan tally: ' . $e->getMessage()]);
                 }
 
-            case 'update_tally':
+            case 'update_tally': XXX
                 $id_tally     = (int) ($data['id_tally'] ?? 0);
                 $row_version  = (int) ($data['row_version'] ?? 1);
                 
