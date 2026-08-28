@@ -1,5 +1,7 @@
 {
   "name": "asben/timber-tally-api",
   "description": "API Tally Kayu",
-  "require": {}
+  "require": {
+    "aws/aws-sdk-php": "^3.0"
+  }
 }
