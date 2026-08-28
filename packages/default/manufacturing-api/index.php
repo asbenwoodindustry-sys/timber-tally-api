@@ -1,5 +1,7 @@
 <?php
-
+require __DIR__ . '/vendor/autoload.php';
+use Aws\S3\S3Client;
+use Aws\Exception\AwsException;
 declare(strict_types=1);
 
 // ==============================================================
